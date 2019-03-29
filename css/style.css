@@ -1,0 +1,103 @@
+body{
+  background: black;
+}
+.navbar {
+  height: 50px;
+}
+.navbar-brand {
+  float: left;
+  padding: 15px 15px;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.navbar-expand-md {
+background-color:#454C4F;
+}
+/* Carousel base class */
+.carousel {
+  margin-bottom:auto;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 36rem;
+  background-color: black;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 36rem;
+}
+.form-signin {
+  position: absolute;
+  top:80px;
+  left:200px;
+  /*box-sizing:border-box;*/
+  padding: 40px;
+  max-width: 330px;
+
+
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background: transparent;
+  color: white;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background: transparent;
+  color: white;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  background: transparent;
+  color: white;
+}
+.Down_panel {
+background: black;
+}
+.first_Text {
+  position: relative;
+  color:#E5ED51;
+  font-size: 90px;
+}
+.first_Text1{
+  position: relative;
+  color: #4083FF;
+  font-size: 50px;
+}
+.social_icon {
+  margin-left: 800px;
+}
+/* .img-responsive {
+  display: block;
+  height: auto;
+  max-width: 100%;
+} */
